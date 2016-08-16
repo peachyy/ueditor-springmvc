@@ -10,21 +10,30 @@ pull代码
 `
 git clone https://github.com/peachyy/ueditor-springmvc.git
 `
+
 build
 
 `
 cd ueditor-springmvc
+
 maven install 
 `
 引用
 `
 		<dependency>
+		
 			<groupId>com.peachyy</groupId>
+			
 			<artifactId>ueditor-springmvc</artifactId>
+			
 			<version>1.0</version>
+			
 		</dependency>
 `
+
 定义一个读取配置的controller
+
+
 `
 @Controller
 @RequestMapping("/support/ueditor")
@@ -32,9 +41,13 @@ public class SpringMVCUEditorSupport extends SpringMvcUeditorSupport {
 
 }		
 `
+
 配置UEDITOR_HOME_URL
+
+
 `
 window.UEDITOR_HOME_URL=${you path}/support/ueditor
 `
+
 end 
 
