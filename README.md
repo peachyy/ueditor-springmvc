@@ -31,7 +31,7 @@ maven install
 		</dependency>
 ```		
 
-定义一个读取配置的controller
+定义一个读取Uditor配置的controller
 
 
 ```
@@ -42,7 +42,7 @@ public class SpringMVCUEditorSupport extends SpringMvcUeditorSupport {
 }		
 ```
 
-配置UEDITOR_HOME_URL
+配置页面UEDITOR_HOME_URL
 
 
 ```
