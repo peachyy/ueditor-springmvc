@@ -49,5 +49,7 @@ public class SpringMVCUEditorSupport extends SpringMvcUeditorSupport {
 window.UEDITOR_HOME_URL=${you path}/support/ueditor
 ```
 
+另外把config.json放在项目的classpath / 下 便可以正常使用编辑器了。
+
 end 
 
